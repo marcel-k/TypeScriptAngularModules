@@ -7,4 +7,4 @@ A Typescript example of writing AMD Modules with Angular
 - bower install (first npm install bower globally)
 - Open with visual studio and compile or compile the typescript manually
 
-Read this: 
+Read this: http://blog.marcel-k.net/index.php/modules-with-angular-and-typescript/
