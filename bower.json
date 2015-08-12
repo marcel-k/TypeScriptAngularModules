@@ -1,0 +1,25 @@
+{
+  "name": "TypescriptAngular",
+  "version": "0.0.0",
+  "authors": [
+    "marcel-k <mailme@marcel-k.net>"
+  ],
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.0",
+    "requirejs": "~2.1.20"
+  }
+}

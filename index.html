@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>TypeScript Angular Modules</title>
+</head>
+<body>
+    <div ng-controller="ioController as ctrl">
+        <div>
+            <span>Output is written to console. Hit f12</span>
+            <label for="input">input</label>
+            <input id="input" ng-model="ctrl.input" />
+            <div>
+                <button ng-click="ctrl.onReadClick()">Read!</button>
+                <button ng-click="ctrl.onWriteClick()">Write!</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Where did the cluttering go? -->
+    <script src="bower_components/angular/angular.min.js"></script>    
+    <script data-main="src/App" src="bower_components/requirejs/require.js"></script>
+</body>
+</html>
